@@ -61,7 +61,6 @@ const Pedidos = () => {
                                 ))}
                             </tbody>
                         </table>
-                        <p className="font-bold mt-2">Total: S/ {order.totalAmount}</p>
                         <button
                             className="mt-4 bg-red-600 hover:bg-red-800 text-white font-medium rounded-lg px-4 py-2"
                             onClick={() => handleDelete(order.id)}
